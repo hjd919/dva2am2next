@@ -14,10 +14,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "antd-mobile": "^2.0.0-beta.2",
+    "babel-loader": "^6.2.4",
     "dva-no-router": "^0.1.0-0",
+    "extract-text-webpack-plugin": "^2.1.2",
     "next": "^3.2.2",
+    "rc-form": "^1.4.8",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "styled-components": "^2.1.2",
     "styled-jsx": "^1.0.10"
+  },
+  "devDependencies": {
+    "antd-mobile-demo-data": "^0.1.4"
   }
 }

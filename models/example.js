@@ -17,7 +17,6 @@ export default {
 
   effects: {
     *fetch({ payload }, { call, put }) {  // eslint-disable-line
-      console.log('fetch1111')
       yield put({ type: 'save' });
     },
   },
